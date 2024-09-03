@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar-brand {
+    color: #003366 !important; /* Navy Blue */
+  }
+  
+  .jumbotron {
+    background-image: url('../img/home-banner.jpg');
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh; /* or any height you need */
+  }
+  h1, h2 {
+    color: #003366; /* Navy Blue */
+  }
+  
+  .lead{
+    font-weight: 700;
+  }
+
+  footer {
+    background-color: #333333; /* Dark Gray */
+    color: white;
+  }
+  
+  .btn-primary {
+    background-color: #003366; /* Navy Blue */
+    border-color: #003366; /* Navy Blue */
+  }
+  
