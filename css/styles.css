@@ -3,7 +3,13 @@ body {
   }
   
   .navbar-brand {
-    color: #003366 !important; /* Navy Blue */
+    color: #003366 !important; 
+  }
+
+  .headHolder{
+    background-color: rgb(118, 166, 208);
+    border: solid 2px black;
+    border-radius: 5px;
   }
   
   .jumbotron {
@@ -12,10 +18,10 @@ body {
     color: white;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh; /* or any height you need */
+    height: 70vh; 
   }
   h1, h2 {
-    color: #003366; /* Navy Blue */
+    color: #003366;
   }
   
   .lead{
@@ -23,12 +29,24 @@ body {
   }
 
   footer {
-    background-color: #333333; /* Dark Gray */
+    background-color: #333333;
     color: white;
   }
   
   .btn-primary {
-    background-color: #003366; /* Navy Blue */
-    border-color: #003366; /* Navy Blue */
+    background-color: rgb(118, 166, 208); 
+    border-color: #003366; 
+    margin-bottom: 20px;
+  }
+
+  .footerLink{
+    text-decoration: none;
+    color: white;
+    margin-right:10px;
+    padding-bottom: 15px;
+  }
+
+  .footerLink:hover{
+    color: rgb(118, 166, 208);
   }
   
