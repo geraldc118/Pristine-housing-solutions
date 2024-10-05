@@ -6,6 +6,10 @@ body {
     color: #003366 !important; 
   }
 
+  .nav-item:hover{
+   color:rgb(118, 166, 208);
+  }
+
   .headHolder{
     background-color: rgb(118, 166, 208);
     border: solid 2px black;
