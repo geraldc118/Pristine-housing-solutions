@@ -1,0 +1,7 @@
+.navbar-brand {
+    color: #003366 !important; 
+  }
+
+  .nav-item:hover{
+   color:rgb(118, 166, 208);
+  }

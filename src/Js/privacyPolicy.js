@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Pristine Housing Solutions Ltd</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="mt-5">Privacy Policy</h1>
+import React from "react";
+// import '../Css/privacyPolicy';
+
+function privacyPolicy(){
+    return(
+    <div className="container">
+        <div className="row">
+            <div className="col-12">
+                <h1 className="mt-5">Privacy Policy</h1>
                 <p>At Pristine Housing Solutions Ltd, we are committed to protecting your privacy. This policy explains how we collect, use, and protect your personal information.</p>
 
                 <h2>1. Data Collection</h2>
@@ -43,4 +39,12 @@
                 <p>We process your data based on the following lawful grounds:</p>
                 <ul>
                     <li>Performance of a contract (your booking)</li>
-                    <li>Legal
+                    <li>Legal</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    )
+}
+
+export default privacyPolicy;
