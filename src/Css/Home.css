@@ -32,5 +32,5 @@ body {
   .btn-primary{
     background-color:rgb(118, 166, 208)!important;
     color: white;
-    border-color: none;
+    border-color: none !important; 
   }
