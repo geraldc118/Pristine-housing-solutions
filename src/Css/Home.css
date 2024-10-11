@@ -29,6 +29,8 @@ body {
     font-size: 1.2rem;
   }
 
-  .btn{
-    color: rgb(118, 166, 208) 
+  .btn-primary{
+    background-color:rgb(118, 166, 208)!important;
+    color: white;
+    border-color: none;
   }

@@ -1,8 +1,10 @@
 import React from "react";
 import '../Css/Home.css';
+import Services from "./Services";
 
-function Home(){
-    return(
+function Home() {
+  return (
+    <>
       <header className="jumbotron jumbotron-fluid text-center text-white">
         <div className="container">
           <div className="headHolder">
@@ -11,7 +13,9 @@ function Home(){
           </div>
         </div>
       </header>
-    )
+      <Services />
+    </>
+  );
 }
 
 export default Home;
