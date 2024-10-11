@@ -2,8 +2,8 @@ h1{
     color: #003366 !important; 
 }
 
-.btn-primary{
+.contactButton{
   background-color:rgb(118, 166, 208)!important;
   color: white;
-  border-color: none !important; 
+  border-style: none;
 }
